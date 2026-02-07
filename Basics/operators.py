@@ -26,3 +26,16 @@ print(3**2); # returns 9, as 3 raised to the power of 2 is 9
 
 #Division by zero raises a ZeroDivisionError
 # print(5/0) # raises ZeroDivisionError: division by zero   
+
+
+#short hand assignment operators
+x = 5
+x += 3 # equivalent to x = x + 3, now x is 8    
+x -= 2 # equivalent to x = x - 2, now x is 6
+x *= 4 # equivalent to x = x * 4, now x is 24
+x /= 6 # equivalent to x = x / 6, now x is 4.0
+x //= 2 # equivalent to x = x // 2, now x is 2.0
+x %= 2 # equivalent to x = x % 2, now x is 0
+x **= 3 # equivalent to x = x ** 3, now x is 0
+
+
